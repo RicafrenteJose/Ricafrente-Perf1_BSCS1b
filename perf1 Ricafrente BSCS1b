@@ -1,0 +1,37 @@
+// "var" is used to declare variables in JavaScript. It can be reassigned and redeclared.  
+var varVariable1 = "Programming is Fun";
+var varVariable2 = "CS is Great";
+
+console.log(varVariable1); 
+console.log(varVariable2); 
+
+
+
+
+
+// The "let" declaration declares re-assignable, block-scoped local variables, optionally initializing each to a value. 
+    
+for(let i = 0; i > 3; i++ ){
+    console.log(i);
+}
+
+console.log(i) // this line right here is outside of the blocks so it means that this will have an error.
+                    //Why? because it is outside of the block and "let" is only accpeting what's in the inside.
+
+
+
+
+
+
+
+
+// "const"  is for values that never change.
+const highest_score = 20
+
+my_score = 16 // This line will having a error 
+                // why? because const if for values that are not unchangable
+
+
+
+
+
